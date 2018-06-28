@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "system",
+    "outFile": "JS_DGS.js",
+    "target": "es5",
+    "sourceMap": true,
+    "inlineSources": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

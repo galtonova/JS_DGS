@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>JS DGS</title>
+
+  <script src="node_modules/file-saver/FileSaver.min.js"></script>
+  <script src="node_modules/systemjs/dist/system.js"></script>
+  <script src="JS_DGS.js"></script>
+</head>
+
+<body>
+
+<script>
+  System.import('main').then(function(module){module.main();});
+</script>
+
+</body>
+</html>
